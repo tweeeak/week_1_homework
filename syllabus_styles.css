@@ -1,0 +1,88 @@
+blockquote{
+  text-align: center;
+  font-style: italic;
+  font-size: 12pt
+}
+
+body {
+  /*Picked a font from the google fonts API since I do not know the correct one to use*/
+  font-family: 'Slabo 27px', serif;
+  font-size: 14pt;
+  margin: 90px auto; /*width on its own made it awkward... auto seems to fix this, as per W3Schools*/
+  /*It seems margin is not enough. I should use width to limit the text spread on the screen*/
+  width: 900px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40pt;
+  letter-spacing: 5px;
+  margin-bottom: -5px;
+}
+
+h2{
+  font-style: bold;
+  border-top: 2px black solid;
+  border-bottom: 1px black solid;
+  text-transform: uppercase; /*nice trick*/
+  letter-spacing: 5px;
+}
+
+/*copied this whole section from stack overflow and made some edits. I'm sure there is a better way but this got the job done for now.*/
+dl {
+ width:100%;
+ overflow:hidden;
+ padding:0;
+ margin:0
+}
+dt {
+ float:left;
+ width:20%; /* adjust the width; make sure the total of both is 100% */
+ padding:0;
+ margin:0
+}
+dd {
+ float:left;
+ width:80%; /* adjust the width; make sure the total of both is 100% */
+ padding:0;
+ margin:0
+}
+
+/*even though the tag exists, its not enough. Must fix some paramenters*/
+small{
+ letter-spacing: 0px;
+ font-size: 10pt;
+}
+
+table,th, tr, td{
+  border: 0.5px solid #E0E0E0;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.q_link{
+  text-align: right;
+  font-style: italic;
+}
+
+.sub_title{
+  text-align: center;
+  font-style: italic;
+}
+
+.tb1{
+
+}
+
+.tb2{
+  background-color: #E0E0FF ;
+}
+
+.tb_emph{
+  background: black;
+  color: white;
+}
